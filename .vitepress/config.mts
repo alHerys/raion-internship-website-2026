@@ -2,62 +2,53 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "RAION ACADEMY 2024",
-  description: "Introduction to Kotlin and Jetpack Compose.",
+  title: "RAION INTERNSHIP 2026",
+  description: "Introduction to Dart and Flutter.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "Home", link: "/" },
-      { text: "Additional Resources", link: "https://adhesive-eggnog-eca.notion.site/Kotlin-Fundamental-16b2b31e67b447209bc53c8095e363e0" },
     ],
 
     sidebar: [
       {
-        text: "Instalasi Android Studio 📱",
-        link: "https://raion-academy-2024.vercel.app/src/0_instalasi_android_studio",
+        text: "Instalasi Flutter 📱",
+        link: "/src/0_instalasi_flutter/",
       },
       {
-        text: "Pengenalan Kotlin 💜",
+        text: "Pengenalan Dart 💙",
         items: [
-          { text: "Pengertian dan Sejarah", link: "https://raion-academy-2024.vercel.app/src/1_pengenalan_kotlin/a_pengertian" },
-          { text: "Variabel dan Tipe Data", link: "https://raion-academy-2024.vercel.app/src/1_pengenalan_kotlin/b_variabel" },
-          { text: "Function", link: "https://raion-academy-2024.vercel.app/src/1_pengenalan_kotlin/c_function" },
-          { text: "Konsep OOP", link: "https://raion-academy-2024.vercel.app/src/1_pengenalan_kotlin/d_oop" },
+          { text: "Pengertian dan Sejarah", link: "/src/1_pengenalan_dart/a_pengertian/" },
+          { text: "Variabel dan Tipe Data", link: "/src/1_pengenalan_dart/b_variabel_dan_tipe_data/" },
+          { text: "Function", link: "/src/1_pengenalan_dart/c_function/" },
+          { text: "Control Flow", link: "/src/1_pengenalan_dart/d_control_flow/" },
+          { text: "Konsep OOP", link: "/src/1_pengenalan_dart/e_oop/" },
         ],
       },
       {
-        text: "Pengenalan Compose 💚",
+        text: "Pengenalan Flutter 🦋",
         items: [
-          { text: "Pengertian dan Sejarah", link: "https://raion-academy-2024.vercel.app/src/2_pengenalan_compose/a_pengertian" },
-          { text: "Composable Function", link: "https://raion-academy-2024.vercel.app/src/2_pengenalan_compose/b_composable" },
-          { text: "UI Layout", link: "https://raion-academy-2024.vercel.app/src/2_pengenalan_compose/c_ui_layout" },
-          { text: "Modifier", link: "https://raion-academy-2024.vercel.app/src/2_pengenalan_compose/d_modifier" },
-          { text: "Material Design", link: "https://raion-academy-2024.vercel.app/src/2_pengenalan_compose/e_material_design" },
+          { text: "Pengertian dan Konsep Dasar", link: "/src/2_pengenalan_flutter/a_pengertian/" },
+          { text: "Stateless vs Stateful", link: "/src/2_pengenalan_flutter/b_stateless_stateful/" },
+          { text: "UI Layout", link: "/src/2_pengenalan_flutter/c_layout/" },
         ],
       },
       {
         text: "Pengenalan State 🚩",
         items: [
-          { text: "Pengertian State", link: "https://raion-academy-2024.vercel.app/src/3_pengenalan_state/a_state" },
-          { text: "State Hoisting", link: "https://raion-academy-2024.vercel.app/src/3_pengenalan_state/b_hoisting" },
-          { text: "UI Events", link: "https://raion-academy-2024.vercel.app/src/3_pengenalan_state/c_ui_event" },
+          { text: "Pengertian State", link: "/src/3_pengenalan_state/a_pengertian/" },
         ],
       },
       {
         text: "Pengenalan Navigation 📍",
         items: [
-          { text: "Setup Navigation", link: "https://raion-academy-2024.vercel.app/src/4_pengenalan_navigation/a_setup" },
-          { text: "Passing Data", link: "https://raion-academy-2024.vercel.app/src/4_pengenalan_navigation/b_passing_data" },
+          { text: "Basic Navigation & Named Routes", link: "/src/4_pengenalan_navigation/a_pengertian/" },
         ],
       },
       {
-        text: "Pengenalan MVVM 🔥",
+        text: "Clean Architecture 🏛️",
         items: [
-          { text: "Pengertian MVVM", link: "https://raion-academy-2024.vercel.app/src/5_pengenalan_mvvm/a_pengertian" },
-          { text: "API Interface", link: "https://raion-academy-2024.vercel.app/src/5_pengenalan_mvvm/b_api_interface" },
-          { text: "Repository Pattern", link: "https://raion-academy-2024.vercel.app/src/5_pengenalan_mvvm/c_repository" },
-          { text: "ViewModel Pattern", link: "https://raion-academy-2024.vercel.app/src/5_pengenalan_mvvm/d_viewmodel" },
-          { text: "Dependency Injection", link: "https://raion-academy-2024.vercel.app/src/5_pengenalan_mvvm/e_di" },
+          { text: "Pengertian Clean Architecture", link: "/src/5_clean_architecture/a_pengertian/" },
         ],
       },
     ],

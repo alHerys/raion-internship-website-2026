@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "RAION ACADEMY\n2024 🦁"
+  name: "RAION INTERNSHIP\n2026 🦁"
   text: ""
   tagline: Mobile Development Learning Path.
   actions:
@@ -11,98 +11,48 @@ hero:
       text: Raion Community Instagram
       link: https://www.instagram.com/raion_community/
     - theme: alt
-      text: Jetpack Compose Official Website
-      link: https://developer.android.com/compose
+      text: Flutter Official Website
+      link: https://flutter.dev/
     - theme: alt
-      text: Kotlin Playground
-      link: https://play.kotlinlang.org/
+      text: DartPad Playground
+      link: https://dartpad.dev/
 
 features:
   - icon: 📱
-    title: Instalasi Android Studio
-    details: Android Studio adalah IDE resmi dari Google untuk mengembangkan aplikasi Android.
-    link: ./src/0_instalasi_android_studio
+    title: Instalasi Flutter
+    details: Panduan memeriksa dependensi mobile, instalasi Flutter SDK, Git, dan setup Android Studio / VS Code.
+    link: ./src/0_instalasi_flutter/
 
-  - icon: 💜
-    title: Pengenalan Kotlin
-    details: Kotlin adalah bahasa pemrograman modern yang dirancang oleh JetBrains dan pertama kali diumumkan pada tahun 2011.
-    link: ./src/1_pengenalan_kotlin/a_pengertian
+  - icon: 💙
+    title: Pengenalan Dart
+    details: Dart adalah bahasa pemrograman modern, aman, dan berorientasi objek yang digunakan untuk mengembangkan aplikasi Flutter.
+    link: ./src/1_pengenalan_dart/a_pengertian/
 
-  - icon: 💚
-    title: Pengenalan Jetpack Compose
-    details: Jetpack Compose adalah toolkit modern dan deklaratif untuk membangun antarmuka pengguna (UI) di aplikasi Android.
-    link: ./src/2_pengenalan_compose/a_pengertian
+  - icon: 🦋
+    title: Pengenalan Flutter
+    details: Flutter adalah UI toolkit dari Google untuk membangun aplikasi natively compiled yang indah dari satu codebase.
+    link: ./src/2_pengenalan_flutter/a_pengertian/
 
   - icon: 🚩
     title: Pengenalan State
-    details: State dalam konteks Jetpack Compose merujuk pada data yang mempengaruhi tampilan antarmuka pengguna (UI) dari komponen tertentu.
-    link: ./src/3_pengenalan_state/a_state
+    details: Memahami bagaimana Flutter mengelola perubahan data (State) untuk memperbarui tampilan antarmuka pengguna (UI).
+    link: ./src/3_pengenalan_state/a_pengertian/
 
   - icon: 📍
     title: Pengenalan Navigation
-    details: Navigation dalam Jetpack Compose adalah mekanisme yang memungkinkan pengguna berpindah antara berbagai layar (screens) dalam aplikasi.
-    link: ./src/4_pengenalan_navigation/a_setup
+    details: Mekanisme dasar perpindahan antar halaman menggunakan Navigator dan Named Routes dalam aplikasi Flutter.
+    link: ./src/4_pengenalan_navigation/a_pengertian/
 
-  - icon: 🔥
-    title: Pengenalan MVVM
-    details: MVVM, atau Model-View-ViewModel, adalah pola arsitektur yang dirancang untuk memisahkan logika bisnis dari antarmuka pengguna (UI).
-    link: ./src/5_pengenalan_mvvm/a_pengertian
+  - icon: 🏛️
+    title: Clean Architecture
+    details: Pengenalan pola arsitektur yang memisahkan kode ke dalam layer (Domain, Data, Presentation) agar aplikasi lebih mudah dikelola.
+    link: ./src/5_clean_architecture/a_pengertian/
 ---
-
-<br>
-
-::: tip FINAL PROJECT 🌟
-Selamat datang di tahap akhir perjalanan Raion Academy! Di sini, kamu akan menemukan ketentuan dari mengerjakan project akhirmu. Pastikan kamu membaca persyaratannya dengan teliti dan jangan lupa mengumpulkan proyekmu tepat waktu, ya!
-:::
-
-::: details Ketentuan Final Project 📄
-
-### ShopEase🛍
-
-<br>
-
-##### Deskripsi
-
-Aplikasi belanja yang memudahkan pengguna untuk melihat produk yang tersedia.
-
-##### Latar Belakang
-
-Alex, seorang mahasiswa yang hobi belanja online, ingin aplikasi yang bisa membantu dia menemukan produk dengan mudah. Aplikasi ini harus menampilkan detail produk dan memiliki navigasi yang user-friendly. Tugas Anda adalah mengembangkan aplikasi **ShopEase** secara bertahap, di mana setiap level akan menambahkan fitur baru.
-
----
-
-### Milestone
-
-<br>
-
-##### Level 1: Layout Sederhana (Easy)
-
-- **Kasus** : Alex ingin melihat daftar produk dengan tampilan yang menarik.
-- **Tugas** : Buat halaman awal aplikasi yang sederhana dengan nama `HomeScreen`, yang hanya menampilkan nama dan gambar produk tanpa interaksi apapun.
-- **Video** : [Klik disini untuk melihat video](https://drive.google.com/file/d/1MDofEjpawrBx1pJn_QNr-bqUx3JIejdM/view?usp=sharing)
-
-##### Level 2: State Management (Medium)
-
-- **Kasus** : Setelah melihat daftar produk, Alex ingin bisa menambahkan produk ke dalam keranjang belanja.
-- **Tugas** : Tambahkan `state management` untuk mengelola jumlah produk yang ditambahkan ke keranjang, sehingga pengalaman belanja jadi lebih interaktif.
-- **Video** : [Klik disini untuk melihat video](https://drive.google.com/file/d/1f_PC5KmbJU76I_stqbYhibs66qDreKwk/view?usp=sharing)
-
-##### Level 3: Navigasi Antar Layar (Hard)
-
-- **Kasus** : Alex ingin tahu lebih banyak tentang produk yang menarik perhatiannya.
-- **Tugas** : Buat `DetailScreen` produk yang menunjukkan informasi lengkap dan tambahkan navigasi antara `HomeScreen` dan `DetailScreen`.
-- **Video** : [Klik disini untuk melihat video](https://drive.google.com/file/d/1-JFzyE7FKUNllGy8NFANzNeKWW2khPED/view?usp=sharing)
-
-:::
 
 ## Explore Lebih Lanjut! 📺
 
 <div class="video-container">
-  <iframe width="300" height="170" src="https://www.youtube.com/embed/6_wK_Ud8--0" frameborder="0" allowfullscreen></iframe>
-  <iframe width="300" height="170" src="https://www.youtube.com/embed/FIEnIBq7Ups" frameborder="0" allowfullscreen></iframe>
-  <iframe width="300" height="170" src="https://www.youtube.com/embed/bOd3wO0uFr8" frameborder="0" allowfullscreen></iframe>
-  <iframe width="300" height="170" src="https://www.youtube.com/embed/zCIfBbm06QM" frameborder="0" allowfullscreen></iframe>
-  <iframe width="300" height="170" src="https://www.youtube.com/embed/ek682t-z2gQ" frameborder="0" allowfullscreen></iframe>
+  <iframe width="300" height="170" src="https://www.youtube.com/embed/3kaGC_DrUnw?si=VZxum1oVugxCdBUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 <style>
@@ -127,11 +77,9 @@ Alex, seorang mahasiswa yang hobi belanja online, ingin aplikasi yang bisa memba
 
 # Connect with us!
 
-Meet the incredible team that made this module possible. Feel free to reach out and get to know the people behind the scenes!
-
 <script setup>
 import { VPTeamMembers } from 'vitepress/theme'
-import { members } from './models/team-members.ts'
+import { leadCoLead } from './models/team-members.ts'
 </script>
 
-<VPTeamMembers size="medium" :members="members" />
+<VPTeamMembers size="medium" :members="leadCoLead" />
