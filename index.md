@@ -23,12 +23,12 @@ features:
     details: Panduan memeriksa dependensi mobile, instalasi Flutter SDK, Git, dan setup Android Studio / VS Code.
     link: ./src/0_instalasi_flutter/
 
-  - icon: 💙
+  - icon: :>
     title: Pengenalan Dart
     details: Dart adalah bahasa pemrograman modern, aman, dan berorientasi objek yang digunakan untuk mengembangkan aplikasi Flutter.
     link: ./src/1_pengenalan_dart/a_pengertian/
 
-  - icon: 🦋
+  - icon: Hi
     title: Pengenalan Flutter
     details: Flutter adalah UI toolkit dari Google untuk membangun aplikasi natively compiled yang indah dari satu codebase.
     link: ./src/2_pengenalan_flutter/a_pengertian/
@@ -38,7 +38,7 @@ features:
     details: Memahami bagaimana Flutter mengelola perubahan data (State) untuk memperbarui tampilan antarmuka pengguna (UI).
     link: ./src/3_pengenalan_state/a_pengertian/
 
-  - icon: 📍
+  - icon: :)
     title: Pengenalan Navigation
     details: Mekanisme dasar perpindahan antar halaman menggunakan Navigator dan Named Routes dalam aplikasi Flutter.
     link: ./src/4_pengenalan_navigation/a_pengertian/
