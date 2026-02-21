@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "RAION INTERNSHIP\n2026 🦁"
+  name: "RAION INTERNSHIP 2026"
   text: ""
   tagline: Mobile Development Learning Path.
   actions:
@@ -49,7 +49,7 @@ features:
     link: ./src/5_clean_architecture/a_pengertian/
 ---
 
-## Explore Lebih Lanjut! 📺
+## Explore Lebih Lanjut! 
 
 <div class="video-container">
   <iframe width="300" height="170" src="https://www.youtube.com/embed/3kaGC_DrUnw?si=VZxum1oVugxCdBUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
