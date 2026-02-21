@@ -9,7 +9,11 @@ next:
 Pada modul sebelumnya tentang "Stateless vs Stateful", kita telah menyentuh dasar State Management paling pertama di Flutter, yaitu: **`setState()`**.
 Ini adalah mekanisme bawaan (*Internal State*) bagi Flutter untuk me-refresh layar saat ada data yang berubah.
 
-Namun, dalam membangun aplikasi yang berskala besar seperti Toko Online *ShopEase*, `setState()` saja lambat laun akan memicu masalah arsitektur besar.
+```dart
+setState(() {
+  _counter++; // Mengubah data dan memicu UI untuk render ulang (rebuild) dengan data terbaru
+});
+```
 
 ## Mengapa `setState` Tidak Selamanya Cukup?
 
